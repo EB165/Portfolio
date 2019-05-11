@@ -17,7 +17,7 @@ void setup() {
     noCursor();
     smooth(8);
     fill(0);
-    textSize(100);
+    textSize(70);
     textAlign(CENTER, CENTER);
     noStroke();
     font = loadFont("Prime-Regular-100.vlw");
@@ -53,6 +53,7 @@ void draw() {
     if (menuRun) { //When game opens, shows the menu
         if (instructionRun) {
             background(255);
+            textAlign(CENTER, CENTER);
             text("Click to activate slow motion", width/2, 30);
             text("You can't eat while clicking", width/2, 85);
             text("You destroy food when slow motion", width/2, 145);
