@@ -52,11 +52,11 @@ body {
     font-family: roboto_slabregular, sans-serif;
 
 }
-#title {
+.title {
     font-family: open_sansregular, sans-serif;
+    margin-left: 61%;
 }
-#game {
-    display: block;
+.links {
+    width: 600px;
     margin-left: auto;
-    margin-right: auto;
 }
